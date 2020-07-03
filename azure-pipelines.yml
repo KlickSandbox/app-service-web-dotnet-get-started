@@ -41,5 +41,5 @@ steps:
     deployToSlotOrASE: true
     ResourceGroupName: 'CloudSandbox'
     SlotName: 'production'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/package.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/*.zip'
 
